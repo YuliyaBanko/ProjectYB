@@ -48,4 +48,5 @@ Git clone, или же клонирование репозитория, полн
 # HAVE A WONDERFUL DAY :trollface:
 ![KRASOTA](https://i.pinimg.com/originals/f6/f5/0b/f6f50b1ae1a7de0a0b5f3bab7f984ddd.gif)
 
+Команда **git commit --amend** — это удобный способ изменить последний коммит. Она позволяет объединить проиндексированные изменения с предыдущим коммитом без создания нового коммита :sparkles:
 
