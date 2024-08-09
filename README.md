@@ -45,7 +45,7 @@ Git clone, или же клонирование репозитория, полн
 К **git pull** применяются опции как от **git fetch**, так и от **git merge**. Если же вы хотите произвести *rebase* вместо *merge*, то используйте соответствующую опцию:
 `git pull --rebase [<репозиторий>]`
 
-# HAVE A WONDERFUL DAY:pouting_cat:
+# HAVE A WONDERFUL DAY :trollface:
 ![KRASOTA](https://i.pinimg.com/originals/f6/f5/0b/f6f50b1ae1a7de0a0b5f3bab7f984ddd.gif)
 
 
