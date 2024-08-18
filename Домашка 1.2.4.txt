@@ -1,0 +1,302 @@
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ git commit -m 'add first.md'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        qa_auto_1.2.4_Banko/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ git add qa_auto_1.2.4_Banko
+warning: adding embedded git repository: qa_auto_1.2.4_Banko
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of    
+hint: the embedded repository and will not know how to obtain it.        
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> qa_auto_1.2.4_Banko
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached qa_auto_1.2.4_Banko
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ git rm --cached qa_auto_1.2.4_Banko
+error: the following file has staged content different from both the
+file and the HEAD:
+    qa_auto_1.2.4_Banko
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ git clone https://github.com/YuliyaBanko/qa_auto_1.2.4_Banko.git
+Cloning into 'qa_auto_1.2.4_Banko'...
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 23 (delta 4), reused 4 (delta 4), pack-reused 17 (from 1)
+Receiving objects: 100% (23/23), 5.97 KiB | 470.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ ls
+ 1snipped.svg   Homework1.4.png         pullfromgithub.png   qa_auto_1.2.4_Banko/   script1.js 
+ Help.md       'pull from github.svg'   pullgit2.svg         README.md              snipped.png
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ cd qa_auto_1.2.4._Banko
+bash: cd: qa_auto_1.2.4._Banko: No such file or directory
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ ls -la
+total 406
+drwxr-xr-x 1 Yuliya 197121      0 Aug 18 09:22  ./
+drwxr-xr-x 1 Yuliya 197121      0 Aug  9 09:38  ../
+drwxr-xr-x 1 Yuliya 197121      0 Aug 18 09:19  .git/
+-rw-r--r-- 1 Yuliya 197121   2199 Aug 17 14:02  .gitignore
+-rw-r--r-- 1 Yuliya 197121   6215 Aug  3 16:38  1snipped.svg
+-rw-r--r-- 1 Yuliya 197121     34 Aug 17 14:01  Help.md
+-rw-r--r-- 1 Yuliya 197121 298399 Aug 15 15:00  Homework1.4.png
+-rw-r--r-- 1 Yuliya 197121  22596 Aug  9 11:54 'pull from github.svg'
+-rw-r--r-- 1 Yuliya 197121  22922 Aug 13 10:17  pullfromgithub.png
+-rw-r--r-- 1 Yuliya 197121  22596 Aug 13 10:32  pullgit2.svg
+drwxr-xr-x 1 Yuliya 197121      0 Aug 18 09:22  qa_auto_1.2.4_Banko/
+-rw-r--r-- 1 Yuliya 197121   5332 Aug  9 11:47  README.md
+-rw-r--r-- 1 Yuliya 197121     42 Aug  8 07:21  script1.js
+-rw-r--r-- 1 Yuliya 197121   6383 Aug  3 16:39  snipped.png
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1 (master)
+$ cd qa_auto_1.2.4_Banko/
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git add first.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git commit -m 'commit first.md'
+[main 4b5b511] commit first.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ touch second.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git add second.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git commit -m 'commit second.md'
+[main c25704b] commit second.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ touch third.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git add third.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git commit -m 'commit third.md'
+[main 9ae8a63] commit third.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log --oneline
+9ae8a63 (HEAD -> main) commit third.md
+c25704b commit second.md
+4b5b511 commit first.md
+26b2d85 (origin/main, origin/HEAD) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git reset --soft c25704b
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log --oneline
+c25704b (HEAD -> main) commit second.md
+4b5b511 commit first.md
+26b2d85 (origin/main, origin/HEAD) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git reset --soft 9ae8a63
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log --oneline
+9ae8a63 (HEAD -> main) commit third.md
+c25704b commit second.md
+4b5b511 commit first.md
+26b2d85 (origin/main, origin/HEAD) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git reset --soft 9ae8a63 
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log--oneline
+git: 'log--oneline' is not a git command. See 'git --help'.
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log --oneline
+9ae8a63 (HEAD -> main) commit third.md
+c25704b commit second.md
+4b5b511 commit first.md
+26b2d85 (origin/main, origin/HEAD) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git reset --mixed c25704b
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log --oneline
+c25704b (HEAD -> main) commit second.md
+4b5b511 commit first.md
+26b2d85 (origin/main, origin/HEAD) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ gs
+bash: gs: command not found
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        third.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git commit -m 'commit after mixed reset'
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        third.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git add third.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git commit -m 'commit third.md after mixed reset '
+[main de6000a] commit third.md after mixed reset
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log --oneline
+de6000a (HEAD -> main) commit third.md after mixed reset
+c25704b commit second.md
+4b5b511 commit first.md
+26b2d85 (origin/main, origin/HEAD) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git reset --hard c25704b
+HEAD is now at c25704b commit second.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git log --oneline
+c25704b (HEAD -> main) commit second.md
+4b5b511 commit first.md
+26b2d85 (origin/main, origin/HEAD) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Yuliya@DESKTOP-8SR3PC6 MINGW64 /c/qaauto/Test1/qa_auto_1.2.4_Banko (main)
+$
